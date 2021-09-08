@@ -1,0 +1,52 @@
+
+
+.about{
+    padding-bottom: 40px;
+
+}
+
+.about-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.picture{
+    height: 420px;
+}
+
+.about-info{
+    font-size: 24px;
+}
+
+.imp{
+    color: blueviolet;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.download1{
+    background-image: linear-gradient(to right, #601f7c, #73308e, #8641a1, #9952b4, #ad63c8, #b972d1, #c480da, #d08fe3, #d69ee3, #daaee4, #dfbde4, #e2cce5);
+    padding: 6px 12px;
+    margin-top: 7px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.download1 a{
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width : 720px) {
+    .about-top{
+        display: flex;
+        flex-direction: column;
+    }
+    .picture{
+        height: 300px;
+    }
+}

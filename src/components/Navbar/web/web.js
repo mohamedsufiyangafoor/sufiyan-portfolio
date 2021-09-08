@@ -1,0 +1,26 @@
+import React from 'react'
+import './web.css';
+function web() {
+    return (
+        <div className="web">
+            <div className="web-option">
+                <a href="#skills"> 
+                    <i class="fi-rr-laptop option-icon"></i>skills
+                </a>
+            </div>
+            <div className="web-option">
+                <a href="#projects">
+                    <i class="fi-rr-edit-alt option-icon"></i> Projects
+                </a>
+            </div>
+            <div className="web-option">
+                <a href="#contact"> 
+                    <i class="fi-rr-following option-icon"></i>Contact
+                </a>
+            </div>
+        </div>
+        
+    )
+}
+
+export default web
